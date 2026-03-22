@@ -32,12 +32,13 @@ As the journey progresses, the repository will be structured broadly as follows:
 
 ```text
 📦 Machine-Learning-Python
- ┣ 📂 01_Data_Basics            # Pandas, Numpy, Visualization examples
- ┣ 📂 02_Data_Preprocessing     # Cleaning, Scaling, Encoding templates
- ┣ 📂 03_Supervised_Learning    # Regression & Classification models
- ┣ 📂 04_Unsupervised_Learning  # Clustering & Dimensionality Reduction
- ┣ 📂 05_Deep_Learning          # Neural Networks, PyTorch/TensorFlow
- ┣ 📂 Projects                  # Full, end-to-end ML portfolio projects
+ ┣ 📂 01_Python_Basics          # Python PyRecap, Functions, OOP
+ ┣ 📂 02_Numpy_SciPy            # Matrices, Statistics, Math for ML
+ ┣ 📂 03_Pandas                 # Dataframes, Data manipulation
+ ┣ 📂 04_Matplotlib_Seaborn     # Data visualization & Plotting
+ ┣ 📂 05_Scikit_Learn           # Classic Machine Learning Models
+ ┣ 📂 06_Deep_Learning          # Neural Networks (Later stages)
+ ┣ 📜 PyRecap.py                # Python recap script
  ┗ 📜 README.md                 # You are here!
 ```
 
@@ -80,6 +81,7 @@ A list of books, courses, and documentation that are guiding my learning process
 - *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* by Aurélien Géron
 - [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
 - [Kaggle](https://www.kaggle.com/) - For datasets and community learning
+- [PYTHON SPÉCIAL MACHINE LEARNING (YouTube Course)](https://www.youtube.com/playlist?list=PLO_fdPEVlfKqMDNmCFzQISI2H_nJcEDJq) - The primary video course I am following
 - *Additional resources will be logged here!*
 
 ## 🤝 Let's Connect
