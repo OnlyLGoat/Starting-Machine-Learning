@@ -1,4 +1,4 @@
-# 🚀 Machine Learning with Python: From Scratch
+# Machine Learning with Python: From Scratch
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn%20%7C%20TensorFlow%20%7C%20PyTorch-orange)
