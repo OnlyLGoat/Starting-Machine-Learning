@@ -1,4 +1,4 @@
-# 🚀 Machine Learning with Python: From Scratch
+# Machine Learning with Python: From Scratch
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn%20%7C%20TensorFlow%20%7C%20PyTorch-orange)
@@ -57,8 +57,7 @@ During this journey, I will be mastering the following stack:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/machine-learning-python.git
-   cd machine-learning-python
+   git clone https://github.com/OnlyLGoat/Starting-Machine-Learning.git
    ```
 2. **Create a virtual environment** (optional but recommended):
    ```bash
@@ -79,6 +78,7 @@ During this journey, I will be mastering the following stack:
 
 A list of books, courses, and documentation that are guiding my learning process:
 - *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* by Aurélien Géron
+- [PYTHON SPÉCIAL MACHINE LEARNING (YouTube Course)](https://www.youtube.com/playlist?list=PLO_fdPEVlfKqMDNmCFzQISI2H_nJcEDJq) - The primary video course I am following
 - [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
 - [Kaggle](https://www.kaggle.com/) - For datasets and community learning
 - [PYTHON SPÉCIAL MACHINE LEARNING (YouTube Course)](https://www.youtube.com/playlist?list=PLO_fdPEVlfKqMDNmCFzQISI2H_nJcEDJq) - The primary video course I am following
