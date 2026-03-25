@@ -48,12 +48,12 @@
 # def suite_fibonacci(n):
 #     a = 0
 #     b = 1
-#     list = []
-#     while a < n:
-#         list.append(a)
+#     list = [a]
+#     while b < n:
 #         a, b = b, a+b
+#         list.append(a)
 #     return list
-        
+#
 # print(suite_fibonacci(1000))
 
 
@@ -101,3 +101,76 @@
 
 # for a, b in zip(ville, liste_1):
 #     print(a, b)
+
+
+# Dictionnaire Recap ===================================
+
+dict_0 = {
+    "Chien": "dog",
+    "chat": "cat",
+    "souris": "mouse",
+    "oiseau": "bird"
+}
+
+# import numpy as np
+# params = {
+#     "W1": np.random.randn(10, 100),
+#     "b1": npm.random.randn(10, 1)
+# }
+
+inv = {
+    "banane": 500,
+}
+
+dict_2 = {
+    "dict_1": dict_0,
+    "Inv": inv
+}
+
+Inventory = {
+    "bananes": 5000,
+    "pommes": 2094,
+    "poires": 412809,
+    "cerises": 2893
+}
+
+Inventory["abricots"] = 4902
+
+liste_5 = ('Paris', 'Londres', 'Rabat')
+Inventory.fromkeys(liste_5)
+Inventory.fromkeys(liste_5, 'valeur affecter a tout les cles')
+
+Fruits = Inventory.pop('abricots')
+
+# print(Inventory.keys())
+# print(Inventory.values())
+# print(len(Inventory))
+
+# print(Inventory.get("bananes"))
+# print(Inventory.get("peches", 0))
+
+# print(Fruits)
+
+# for i in Inventory:
+#     print(i) # Return Keys
+# for i in Inventory.values():
+#     print(i) # Return Values
+# for x,y in Inventory.items():
+#     print(x, y) # Return Keys And Values
+    
+# Classeur Trie Exercise
+
+classeur = {
+    'Positif': [],
+    'Negatif': []
+}
+
+def Trier(classeur, number):
+    while number > 0:
+        return classeur['Positif'].append(number)
+    return classeur['Negatif'].append(number)
+
+Trier(classeur, 3)
+Trier(classeur, -2)
+
+print(classeur)
