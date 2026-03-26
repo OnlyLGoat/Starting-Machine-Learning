@@ -48,11 +48,11 @@
 # def suite_fibonacci(n):
 #     a = 0
 #     b = 1
-#     list = [a]
+#     list_1 = [a]
 #     while b < n:
 #         a, b = b, a+b
-#         list.append(a)
-#     return list
+#         list_1.append(a)
+#     return list_1
 #
 # print(suite_fibonacci(1000))
 
@@ -105,12 +105,12 @@
 
 # Dictionnaire Recap ===================================
 
-dict_0 = {
-    "Chien": "dog",
-    "chat": "cat",
-    "souris": "mouse",
-    "oiseau": "bird"
-}
+# dict_0 = {
+#     "Chien": "dog",
+#     "chat": "cat",
+#     "souris": "mouse",
+#     "oiseau": "bird"
+# }
 
 # import numpy as np
 # params = {
@@ -118,29 +118,29 @@ dict_0 = {
 #     "b1": npm.random.randn(10, 1)
 # }
 
-inv = {
-    "banane": 500,
-}
+# inv = {
+#     "banane": 500,
+# }
 
-dict_2 = {
-    "dict_1": dict_0,
-    "Inv": inv
-}
+# dict_2 = {
+#     "dict_1": dict_0,
+#     "Inv": inv
+# }
 
-Inventory = {
-    "bananes": 5000,
-    "pommes": 2094,
-    "poires": 412809,
-    "cerises": 2893
-}
+# Inventory = {
+#     "bananes": 5000,
+#     "pommes": 2094,
+#     "poires": 412809,
+#     "cerises": 2893
+# }
 
-Inventory["abricots"] = 4902
+# Inventory["abricots"] = 4902
 
-liste_5 = ('Paris', 'Londres', 'Rabat')
-Inventory.fromkeys(liste_5)
-Inventory.fromkeys(liste_5, 'valeur affecter a tout les cles')
+# liste_5 = ('Paris', 'Londres', 'Rabat')
+# Inventory.fromkeys(liste_5)
+# Inventory.fromkeys(liste_5, 'valeur affecter a tout les cles')
 
-Fruits = Inventory.pop('abricots')
+# Fruits = Inventory.pop('abricots')
 
 # print(Inventory.keys())
 # print(Inventory.values())
@@ -160,17 +160,75 @@ Fruits = Inventory.pop('abricots')
     
 # Classeur Trie Exercise
 
-classeur = {
-    'Positif': [],
-    'Negatif': []
-}
+# classeur = {
+#     'Positif': [],
+#     'Negatif': []
+# }
 
-def Trier(classeur, number):
-    while number > 0:
-        return classeur['Positif'].append(number)
-    return classeur['Negatif'].append(number)
+# def Trier(classeur, number):
+#     while number > 0:
+#         return classeur['Positif'].append(number)
+#     return classeur['Negatif'].append(number)
 
-Trier(classeur, 3)
-Trier(classeur, -2)
+# Trier(classeur, 3)
+# Trier(classeur, -2)
 
-print(classeur)
+# print(classeur)
+
+
+# List / Tuple / Dict Comprehension ===================================
+
+# List Comprehension
+
+# list_1 = []
+# for i in range(10):
+#     list_1.append(i**2)
+# print(list_1)
+
+# list_2 = [i**2 for i in range(10)]
+# print(list_2)
+
+# Nested List
+
+# list_3 = [i for i in range(3)]
+# print(list_3)
+
+# list_4 = [[i for i in range(5)] for j in range(5)]
+# print(list_4)
+
+# Dict Comprehension
+
+# dictionnaire = {
+#     '0': 'Pierre',
+#     '1': 'Jean',
+#     '2': 'Julie',
+#     '3': 'Sophie'
+# }
+
+# prenoms = ['Pierre', 'Jean', 'Julie', 'Sophie']
+
+# dictionnaire_2 = {x:y for x, y in enumerate(prenoms)}
+# print(dictionnaire_2)
+
+# ages = [24, 62, 10, 23]
+
+# dictionnaire_3 = {prenom:age for prenom, age in zip(prenoms, ages)}
+# print(dictionnaire_3)
+
+# dictionnaire_4 = {prenom:age for prenom, age in zip(prenoms, ages) if age > 30}
+# print(dictionnaire_3)
+
+# dict_1 = { value1, value2 / For Boucle / Condition}
+
+# Tuple Comprehension
+
+# tuple_1 = tuple((i**2 for i in range(10)))
+# print(tuple_1)
+
+# Dictionary k:v Exercise
+
+# dict_kv = {
+#     str(k): k**2 for k in range(20)
+# }
+
+# print(dict_kv)
