@@ -318,3 +318,59 @@
 #     l = f.read()
 # list_1 = l.split('\n')
 # print(list_1)
+
+# Modules / Packages ===================================
+from random import random
+import statistics
+import math
+import random
+import statistics
+import os
+import glob
+
+# ======================
+# Math
+# ======================
+
+# print(math.cos(2*math.pi))
+# print(math.exp(5))
+
+# ======================
+# Statistics
+# ======================
+
+# list_1 = [0, 1, 1, 33, 4, 21, 40, 34, 13]
+
+# print(statistics.mean(list_1)) # Return Average Of list_1
+# print(statistics.variante(liste_1))
+
+# ======================
+# Random
+# ======================
+
+# print(random.choice(list_1))
+
+# print(random.random()) # Float
+# print(random.randint(8, 10)) # Int
+# print(random.randrange(100))
+
+# print(random.sample(range(100), 10)) # Rerurn A List of 10 Elemets In Range 100
+
+# ======================
+# Os
+# ======================
+
+# os.getcwd() # Get Current Work Directory
+
+# ======================
+# Glob
+# ======================
+
+# print(glob.glob("*")) # Return All Names Of Current Files In Our Directory
+# print(glob.glob("*.py")) # Return All Names Of Current Files With .py In Our Directory
+
+# filenames = glob.glob("*.py")
+
+# for file in filenames:
+#     with open(file, 'r') as f:
+#         print(f.read())
