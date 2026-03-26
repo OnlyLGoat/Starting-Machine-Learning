@@ -232,3 +232,89 @@
 # }
 
 # print(dict_kv)
+
+# Built-in Functions ===================================
+
+# x = -3
+# abs(x) # Return La Valeur Absolue
+
+# x = 3.14
+# round(x) # Return A Decimal
+
+# liste_1 = [0, 2, 33, 19, 20]
+# max(liste_1)
+# min(liste_1)
+# sum(liste_1)
+# all(liste_1) # Return True If All Elements Not Equal To 0
+# any(liste_1) # Return True If There Is At Least One Elements !== 0
+
+# liste_2 = [True, False, True, True]
+# all(liste_2) # Return True If All Elements Are True
+# any(liste_2) # Return True If There Is At Least True Element
+
+# list_1 = [0, 61, 40, 80, 92]
+# tuple_1 = tuple(liste_1) # Transform list_1 from list type to tuple type
+# list_2 = list(tuple_1) # Transform tuple_1 from tuple type to list type
+
+# dic_1 = {
+#     "bananes": 5000,
+#     "pommes": 2094,
+#     "poires": 412809
+# }
+# list_3 = list(dic_1.keys()) # Create A List Of dic_1 Dictionnary Keys
+# liste_3 = list(dic_1.values()) # Create A List Of dic_1 Dictionnary Values
+
+# bin(15) # Transform An Element To Binnary Type
+# oct(15) # Transform An Element To Octet Type
+# hex(15) # Transform An Element To HexaDecimal Type
+
+# x = int(input('Enter A Number: '))
+# print(x)
+
+# x = 25
+# ville = 'Marrakech'
+# # Format Function Method
+# message = "La Temperature est de {} deg C a {}".format(x, ville)
+
+# # Another Method
+# message = f"La Temperature est de {x} deg C a {ville}"
+
+# print(message)
+
+# Open() Function
+
+# open(
+    # file, mode="r", buffering=-1, encoding=None, errors=None, 
+    # newline=None, closefd=True, opener=None
+#   )
+
+# Modes :
+#   'r': open for reading (default)
+#   'w': open for writing, truncating the file first
+#   'x': open for exclisive creation, failing if the file already
+#        exists
+#   'a': open for writing, appending to the end of rhe file if it
+#        exists
+#   'b': binary mode
+#   't': text mode (default)
+
+# f = open('fichier.txt', 'w')
+# f.write('Bonjour !')
+# f.close()
+
+# f = open('fichier.txt', 'r')
+# f.read()
+
+# with open('fichier.txt', 'r') as f:
+#     print(f.read())
+
+# Exercise
+
+# with open('fichier.txt', 'w') as f:
+#     for i in range(10):
+#         f.write("{}^2 = {} \n".format(i, i**2))
+
+# with open('fichier.txt', 'r') as f:
+#     l = f.read()
+# list_1 = l.split('\n')
+# print(list_1)
