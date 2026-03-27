@@ -314,10 +314,20 @@
 #     for i in range(10):
 #         f.write("{}^2 = {} \n".format(i, i**2))
 
+# Method 1
 # with open('fichier.txt', 'r') as f:
 #     l = f.read()
 # list_1 = l.split('\n')
 # print(list_1)
+
+# Method 2
+# with open('fichier.txt', 'r') as f:
+#     liste_1 = f.read().splitlines()
+# print(liste_1)
+
+# Method 3
+# liste_1 = [line.strip() for line in open('fichier.txt', 'r')]
+# print(liste_1)
 
 # Modules / Packages ===================================
 from random import random
@@ -369,8 +379,17 @@ import glob
 # print(glob.glob("*")) # Return All Names Of Current Files In Our Directory
 # print(glob.glob("*.py")) # Return All Names Of Current Files With .py In Our Directory
 
-# filenames = glob.glob("*.py")
-
+# filenames = glob.glob("*.txt")
 # for file in filenames:
 #     with open(file, 'r') as f:
 #         print(f.read())
+
+# Exercise
+
+filenames = glob.glob("*.txt")
+dict_files = {}
+for file in filenames:
+    with open(file, 'r') as f:
+        dict_files[file] = f.read().splitlines()
+print(dict_files)
+
